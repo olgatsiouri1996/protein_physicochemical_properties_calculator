@@ -1,4 +1,4 @@
-# protein_physiochemical_properties_calculator [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5231717.svg)](https://doi.org/10.5281/zenodo.5231717)
+# protein_physicochemical_properties_calculator [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5231717.svg)](https://doi.org/10.5281/zenodo.5231717)
 outputs the id, pI, charge and molecular weight of each protein
 
 ![](image_gui.png)
