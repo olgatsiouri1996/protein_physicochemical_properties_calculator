@@ -4,7 +4,7 @@ from Bio import SeqIO
 from Bio.SeqUtils.ProtParam import ProteinAnalysis
 import pandas as pd
 # imput parameters
-@Gooey(required_cols=2, program_name='protein physiochemical properties calculator', header_bg_color= '#DCDCDC', terminal_font_color= '#DCDCDC', terminal_panel_color= '#DCDCDC')
+@Gooey(required_cols=2, program_name='protein physicochemical properties calculator', header_bg_color= '#DCDCDC', terminal_font_color= '#DCDCDC', terminal_panel_color= '#DCDCDC')
 def main():
 	ap = GooeyParser(description="outputs the id, pI, charge and molecular weight of each protein")
 	ap.add_argument("-in", "--input_file", required=True, widget='FileChooser', help="input fasta file")
