@@ -1,7 +1,7 @@
 # protein_physicochemical_properties_calculator 
 ProtParam based program that outputs the id, pI, charge, molecular weight and pH of each protein
 
-![](img/image_gui.png)
+![](img/program_gui.png)
 ## **Depedences:** 
 1. python3.8 or later
 2. anaconda/miniconda
@@ -16,5 +16,5 @@ The program has 3 options for charge calculation:
 2. use 1 pH value different for each protein
 3. use many pH values each 1 of them for all proteins
 
-## GUI stadalone program(.exe)
-Protein physicochemical properties calculator: 
+## **GUI stadalone program(.exe)**
+Protein physicochemical properties calculator: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5810877.svg)](https://doi.org/10.5281/zenodo.5810877)
