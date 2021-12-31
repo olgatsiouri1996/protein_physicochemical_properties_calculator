@@ -2,7 +2,7 @@
 ProtParam based program that outputs the id, pI, charge, molecular weight and pH of each protein
 
 ![](img/program_gui.png)
-## **Depedences:** 
+## **Depedences** 
 1. python3.8 or later
 2. anaconda/miniconda
 3. argparse: `pip3 install argparse` (for the command line version of the program)
