@@ -9,8 +9,8 @@ def main():
     ap = GooeyParser(description="outputs the id, pI, charge and molecular weight of each protein")
     ap.add_argument("-in", "--input", required=True, widget='FileChooser', help="input fasta file")
     ap.add_argument("-txt", "--txt", required=False,  widget='FileChooser', help=" 1-column txt file with pH values, to calculate the protein charge")
-    ap.add_argument("-pH", "--pH", type=float, default=7.0, required=False, help="pH to calculate the protein charge(default is 7.0)")
-    ap.add_argument("-pro", "--program", type=int, default=1, required=False, help="program to select 1) 1 pH value , 2) many pH values 1 per protein, 3) many pH values for all proteins. Default is 1")
+    ap.add_argument("-pH", "--pH", type=float, default=7.0, required=False, help="pH to calculate the protein charge")
+    ap.add_argument("-pro", "--program", type=int, default=1, required=False, help="program to select 1) 1 pH value , 2) many pH values 1 per protein, 3) many pH values for all proteins.")
     ap.add_argument("-out", "--output", required=True, widget='FileSaver', help="output txt file with id, pI, charge, molecular weight and pH columns")
     args = vars(ap.parse_args())
     # main
