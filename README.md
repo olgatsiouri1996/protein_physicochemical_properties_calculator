@@ -1,8 +1,8 @@
-# protein_physicochemical_properties_calculator [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5910623.svg)](https://doi.org/10.5281/zenodo.5910623)
+# protein_physicochemical_properties_calculator 
 ProtParam based program that outputs the id, pI, charge, molecular weight and pH of each protein
 
 ## **GUI stadalone program(.exe)**
-Protein physicochemical properties calculator: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5884213.svg)](https://doi.org/10.5281/zenodo.5884213)
+Protein physicochemical properties calculator: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7236881.svg)](https://doi.org/10.5281/zenodo.7236881)
 
 ![](img/program_gui.png)
 
